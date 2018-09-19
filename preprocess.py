@@ -1,11 +1,8 @@
 # _*_ coding:utf-8 _*_
-import sys
-from cStringIO  import StringIO
 from xml.etree  import ElementTree as ET
 from htmlentitydefs import name2codepoint
 import os
 import re
-import itertools
 
 
 def clean_str(string):
